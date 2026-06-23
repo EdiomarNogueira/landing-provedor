@@ -1,36 +1,175 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ISP Landing Page
 
-## Getting Started
+Landing page moderna para provedores de internet desenvolvida com **Next.js**, **TypeScript**, **Tailwind CSS** e **Framer Motion**.
 
-First, run the development server:
+O projeto foi criado com foco em performance, experiência do usuário, responsividade e futura integração com um painel administrativo para gerenciamento de conteúdo.
+
+---
+
+## Demonstração
+
+Em breve.
+
+---
+
+## Funcionalidades
+
+* Landing page totalmente responsiva
+* Hero section com imagem em destaque
+* Consulta de cobertura (simulada via JSON)
+* Exibição de planos de internet
+* Sessão de promoções
+* Benefícios do serviço
+* Sobre a empresa
+* Central do assinante
+* Depoimentos de clientes
+* Perguntas frequentes (FAQ)
+* Formulário de contato
+* Rodapé completo
+* Animações utilizando Framer Motion
+* Ícones modernos com Lucide React
+
+---
+
+## Tecnologias Utilizadas
+
+* Next.js 15
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Lucide React
+
+---
+
+## Estrutura do Projeto
+
+```text
+src/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── components/
+│   ├── layout/
+│   │   ├── Header.tsx
+│   │   └── Footer.tsx
+│   │
+│   └── sections/
+│       ├── HeroInternet.tsx
+│       ├── CoverageSearch.tsx
+│       ├── PlansSection.tsx
+│       ├── PromotionsSection.tsx
+│       ├── BenefitsSection.tsx
+│       ├── AboutCompanySection.tsx
+│       ├── CustomerPortalSection.tsx
+│       ├── TestimonialsSection.tsx
+│       ├── FAQSection.tsx
+│       └── ContactSection.tsx
+│
+├── data/
+│   ├── plans.ts
+│   ├── promotions.ts
+│   ├── benefits.ts
+│   ├── testimonials.ts
+│   ├── faqs.ts
+│   ├── company.ts
+│   ├── contactInfo.ts
+│   └── customerPortal.ts
+│
+└── types/
+```
+
+---
+
+## Executando Localmente
+
+Clone o projeto:
+
+```bash
+git clone <repositorio>
+```
+
+Entre na pasta:
+
+```bash
+cd landing-provedor
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o ambiente de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Build para Produção
 
-To learn more about Next.js, take a look at the following resources:
+Executar build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Executar versão de produção:
 
-## Deploy on Vercel
+```bash
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Qualidade de Código
+
+Verificar problemas de lint:
+
+```bash
+npm run lint
+```
+
+---
+
+## Próximas Evoluções
+
+* Painel administrativo
+* Cadastro de planos
+* Cadastro de promoções
+* Gerenciamento de FAQ
+* Upload de imagens
+* Editor visual de seções
+* Múltiplos layouts para provedores
+* Sistema White Label
+* Integração com API e banco de dados
+
+---
+
+## Objetivo
+
+Este projeto faz parte do meu portfólio como desenvolvedor, demonstrando habilidades em:
+
+* Desenvolvimento Front-end
+* UX/UI moderno
+* Responsividade
+* Componentização
+* Arquitetura escalável
+* Integração futura com CMS/Admin
+
+---
+
+## Licença
+
+Projeto desenvolvido para fins de estudo e portfólio.
